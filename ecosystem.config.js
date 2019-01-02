@@ -11,7 +11,7 @@ module.exports = {
       host: "ec2-18-232-111-89.compute-1.amazonaws.com",
       key: "./../tutz/tutz.pem",
       ref: "origin/master",
-      repo: "git@github.com/ophir99/node_student.git",
+      repo: "https://github.com/ophir99/node_student.git",
       path: "/home/ubuntu/prime",
       "post-deploy": "npm install && pm2 startOrRestart ecosystem.config.js"
     }
